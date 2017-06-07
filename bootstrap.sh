@@ -28,5 +28,5 @@ git clone https://github.com/davethecipo/ob24api
 cd ob24api
 mkdir build
 cd build
-LC_ALL=C CMAKE_PREFIX_PATH=~/opt cmake ..
+LC_ALL=C CMAKE_PREFIX_PATH=~/opt cmake -DPKG_CONFIG_USE_CMAKE_PREFIX_PATH=TRUE ..
 LC_ALL=C make
