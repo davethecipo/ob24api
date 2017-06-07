@@ -13,7 +13,7 @@ mkdir ~/opt
 # install latest stable openbabel
 git clone git://github.com/openbabel/openbabel.git
 cd openbabel
-git checkout openbabel-2-4-1
+git checkout -b openbabel-2-4-1
 mkdir build
 cd build
 cmake -DCMAKE_INSTALL_PREFIX=~/opt -DCMAKE_BUILD_TYPE=Debug ..
