@@ -29,4 +29,4 @@ cd ob24api
 mkdir build
 cd build
 LC_ALL=C CMAKE_PREFIX_PATH=~/opt cmake -DPKG_CONFIG_USE_CMAKE_PREFIX_PATH=TRUE ..
-LC_ALL=C make
+LC_ALL=C LD_DEBUG=all make
